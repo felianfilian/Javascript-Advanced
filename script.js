@@ -5,7 +5,8 @@ console.log(num02)
 
 // date and time
 let newDate = new Date();
-
 console.log(newDate);
 
+let newYear = newDate.getFullYear();
+console.log(newYear);
 
