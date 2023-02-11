@@ -10,3 +10,7 @@ console.log(newDate);
 let newYear = newDate.getFullYear();
 console.log(newYear);
 
+newDate.setFullYear(2018);
+newYear = newDate.getFullYear();
+console.log(newYear);
+
