@@ -14,3 +14,7 @@ newDate.setFullYear(2018);
 newYear = newDate.getFullYear();
 console.log(newYear);
 
+// DOM
+let pTag =  document.getElementById('title');
+pTag.innerHTML = "Well Done";
+
