@@ -18,3 +18,16 @@ console.log(newYear);
 let pTag =  document.getElementById('title');
 pTag.innerHTML = "Well Done";
 
+// query
+let btn01 = document.querySelector("#btn01");
+let btnText = "CLICK";
+function click01() {
+    if(btn01.innerHTML == "CLICK") {
+        btn01.innerHTML = "PUSH";
+    }
+    else
+    {
+        btn01.innerHTML = "CLICK"
+    }
+}
+
