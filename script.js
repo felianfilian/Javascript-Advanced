@@ -32,3 +32,11 @@ function click01() {
     }
 }
 
+// create elements
+let container01 = document.querySelector(".container01");
+console.log(container01);
+let newP = document.createElement("p");
+newP.innerHTML = "Ninja works";
+container01.appendChild(newP);
+
+
