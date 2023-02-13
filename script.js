@@ -24,6 +24,7 @@ let btnText = "CLICK";
 function click01() {
     if(btn01.innerHTML == "CLICK") {
         btn01.innerHTML = "PUSH";
+        btn01.style.backgroundColor = "green";
     }
     else
     {
