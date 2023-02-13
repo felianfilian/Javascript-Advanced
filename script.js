@@ -25,13 +25,13 @@ function click01() {
     if(btn01.innerHTML == "CLICK") {
         btn01.innerHTML = "PUSH";
         btn01.style.backgroundColor = "green";
-        container01.appendChild(newP);
+        container01.style.display = "none";
     }
     else
     {
-        btn01.innerHTML = "CLICK"
+        btn01.innerHTML = "CLICK";
         btn01.style.backgroundColor = "red";
-        container01.removeChild(newP);
+        container01.style.display = "initial";
     }
 }
 
@@ -39,7 +39,7 @@ function click01() {
 let container01 = document.querySelector(".container01");
 let newP = document.createElement("p");
 newP.innerHTML = "Ninja works";
-
+container01.appendChild(newP);
 
 
 
