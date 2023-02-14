@@ -45,7 +45,11 @@ container01.appendChild(newP);
 let btn02 = document.querySelector("#btn02");
 btn02.addEventListener("click", function() {
     alert("POW");
+    btn02.style.backgroundColor = "grey";
+    btn02.removeEventListener("click");
 });
+
+
 
 
 
