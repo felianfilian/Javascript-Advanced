@@ -41,5 +41,11 @@ let newP = document.createElement("p");
 newP.innerHTML = "Ninja works";
 container01.appendChild(newP);
 
+// event listener
+let btn02 = document.querySelector("#btn02");
+btn02.addEventListener("click", function() {
+    alert("POW");
+});
+
 
 
