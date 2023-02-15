@@ -46,6 +46,9 @@ btn02.addEventListener("click", function() {
 // BOM
 let iHeight = window.innerHeight;
 let sHeight = screen.height;
+let loc01 = location.hostname;
+
+
 
 
 
@@ -54,6 +57,8 @@ let sHeight = screen.height;
 // console.log(newDate);
 // console.log(newYear);
 // console.log(newYear);
-console.log(iHeight)
-console.log(sHeight)
+// console.log(iHeight)
+// console.log(sHeight)
+// console.log(loc01)
+
 
