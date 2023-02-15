@@ -54,6 +54,11 @@ document.cookie = "health=100;SameSite=None"
 // ES6 functions
 let name01 = "Mario";
 let newString = `hello ${name01}`
+let myFunc = (hero) => {
+    console.log(hero)
+}
+
+myFunc("Peach")
 
 /// Output
 console.log(newString)
