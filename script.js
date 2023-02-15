@@ -1,18 +1,12 @@
 // rounding
 num01 = 5.12345
 num02 = num01.toFixed(2);
-console.log(num02)
 
 // date and time
 let newDate = new Date();
-console.log(newDate);
-
 let newYear = newDate.getFullYear();
-console.log(newYear);
-
 newDate.setFullYear(2018);
 newYear = newDate.getFullYear();
-console.log(newYear);
 
 // DOM
 let pTag =  document.getElementById('title');
@@ -49,7 +43,17 @@ btn02.addEventListener("click", function() {
     btn02.removeEventListener("click");
 });
 
+// BOM
+let iHeight = window.innerHeight;
+let sHeight = screen.height;
 
 
 
+/// Output
+// console.log(num02)
+// console.log(newDate);
+// console.log(newYear);
+// console.log(newYear);
+console.log(iHeight)
+console.log(sHeight)
 
