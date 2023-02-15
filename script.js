@@ -48,7 +48,8 @@ let iHeight = window.innerHeight;
 let sHeight = screen.height;
 let loc01 = location.hostname;
 
-
+// Cookie
+document.cookie = "health=100;SameSite=None"
 
 
 
@@ -61,4 +62,4 @@ let loc01 = location.hostname;
 // console.log(sHeight)
 // console.log(loc01)
 
-
+console.log(document.cookie)
