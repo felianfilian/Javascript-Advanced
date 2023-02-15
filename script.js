@@ -51,15 +51,10 @@ let loc01 = location.hostname;
 // Cookie
 document.cookie = "health=100;SameSite=None"
 
-
+// ES6 functions
+let name01 = "Mario";
+let newString = `hello ${name01}`
 
 /// Output
-// console.log(num02)
-// console.log(newDate);
-// console.log(newYear);
-// console.log(newYear);
-// console.log(iHeight)
-// console.log(sHeight)
-// console.log(loc01)
+console.log(newString)
 
-console.log(document.cookie)
