@@ -67,6 +67,7 @@ class myClass01{
     }
 }
 
-/// Output
-console.log(newString)
+let myObject = new myClass01("luigi");
+console.log(myObject.name);
+
 
