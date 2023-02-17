@@ -60,6 +60,13 @@ let myFunc = (hero) => {
 
 myFunc("Peach")
 
+// Classes
+class myClass01{
+    constructor(name) {
+        this.name = name;
+    }
+}
+
 /// Output
 console.log(newString)
 
